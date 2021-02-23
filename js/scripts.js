@@ -1,9 +1,9 @@
-const question = document.querySelectorAll('.faq__question');
+const faq = document.getElementById('faq');
 
-question.forEach((item) => {
-    item.addEventListener('click', () => {
-        item.classList.toggle('faq__question--active');
-        item.children[0].classList.toggle('faq__img--active');
-        item.nextElementSibling.classList.toggle('faq__answer--active');
-    })
+faq.addEventListener('click', (e) =>{
+    if(e.target.matches('.faq__question')){
+        e.target.classList.toggle('faq__question--active');
+        e.target.children[0].classList.toggle('faq__img--active');
+        e.target.nextElementSibling.classList.toggle('faq__answer--active');   
+    }
 })

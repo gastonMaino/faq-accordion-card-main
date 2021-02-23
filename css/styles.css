@@ -56,7 +56,7 @@ body {
     padding-top: 50px;
     padding-bottom: 50px;
     min-height: 408px;
-    max-width: 845px;
+    max-width: 950px;
   }
 }
 
@@ -71,8 +71,8 @@ body {
   .section::before{
     content: url(../assets/images/illustration-box-desktop.svg);
     position: absolute;
-    left: -130px;
-    top: 195px;
+    left: -90px;
+    top: 210px;
   }
 }
 
