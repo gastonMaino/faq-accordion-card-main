@@ -51,11 +51,11 @@ body {
     grid-template-columns: repeat(2, 1fr);
     background-image: url(/assets/images/illustration-woman-online-desktop.svg), url(/assets/images/bg-pattern-desktop.svg);
     background-size: 440px 360px, 900px 950px ;
-    background-position: -60px 68px, -520px -300px;
+    background-position: -60px 69px, -520px -300px;
     margin: 0 auto;
     padding-top: 50px;
     padding-bottom: 50px;
-    min-height: 508px;
+    min-height: 408px;
     max-width: 960px;
   }
 }
