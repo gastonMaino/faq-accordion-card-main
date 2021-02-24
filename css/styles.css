@@ -14,6 +14,11 @@
   --Light-grayish-blue: hsl(240, 5%, 91%);
 }
 
+*::after,
+*::before{
+  box-sizing: border-box;
+}
+
 body {
   font-size: 12px;
   font-family: "Kumbh Sans", sans-serif;
@@ -53,6 +58,7 @@ body {
     background-size: 440px 360px, 900px 950px ;
     background-position: -60px 68px, -520px -300px;
     margin: 0 auto;
+    align-items: center;
     padding-top: 50px;
     padding-bottom: 50px;
     min-height: 408px;
@@ -92,7 +98,6 @@ body {
   }
 }
 
-
 .faq{
   text-align: left;
   border-bottom: 1px solid var(--Light-grayish-blue);
@@ -102,8 +107,6 @@ body {
 @media screen and (min-width: 768px){
   .faq{
     grid-column: 2/3;
-    padding: 0;
-    height: 70px;
   }
 }
 
